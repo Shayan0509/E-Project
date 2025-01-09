@@ -1,0 +1,310 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif; 
+    background-color: #212529;
+}
+
+.navbar{
+    display: flex;
+    justify-content: end;
+    border: 1px solid black;
+    height: 50px;
+    width: auto;
+}
+
+.logo{
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    font-size: x-large;
+    margin: 12px 495px 0px 0px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+    margin:  15px 90px 0px 0px;
+}
+
+#nav-item:hover{
+    color: aqua;
+    text-decoration: underline;
+    text-decoration-color: #ffffff;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px;
+}
+
+.intro{
+    display: grid;
+    grid-template-columns: repeat(auto-fill , minmax(400px , auto));
+    grid-template-rows: 478px;
+    grid-gap: 50px;
+}
+
+.picture{
+    border: 1px solid rgba(0, 255, 255, 0.75);
+    background-image: url(image.jpeg);
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    margin: 70px 100px 50px 0px;
+    box-shadow: 0 0 25px 10px rgba(0, 240, 255, 1);
+    background: linear-gradient(rgb(0, 240, 255));
+}
+
+.text{
+    line-height: 1.2;
+    max-width: 600px;
+    color: #ffffff;
+    margin: 130px 0px 0px 80px;
+}
+
+h1{
+    font-size: 40px;
+}
+
+span{
+    color: aqua;
+}
+
+.social-icons a{
+    font-size: 27px;
+    margin-right: 10px;
+    color: aqua;
+}
+
+.social-icons{
+    position: absolute;
+    top: 380px;
+    left: 80px;
+}
+
+.icons:hover{
+    color: rgb(47, 219, 219);
+}
+
+.btn{
+    font-size: large;
+    padding: 10px 20px;
+    background-color: #00f0ff;
+    color: #09131c;
+    font-weight: bold;
+    border-radius: 5px;    
+    position: absolute;
+    top: 410px;
+    left: 80px;
+}  
+
+.btn:hover {
+    background-color: rgb(65, 225, 225);
+  }
+ 
+                                  /* ABOUT ME */
+
+.about-h2{
+    font-size: 36px;
+    color: #ffffff;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 3px;
+    margin: 120px 0px 0px 80px;
+}
+
+.about-p{
+    font-size: 18px;  
+    color: #ffffff;
+    margin: 15px 0px 0px 80px;
+    line-height: 25px;
+} 
+
+.about-picture{
+    border: 1px solid rgba(0, 255, 255, 0.75);
+    background-image: url(image.jpeg);
+    background-size: cover;
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    position: absolute;
+    top: 150px;
+    right: 30px;
+    margin: 0px 50px 0px 0px;
+    box-shadow: 0 0 25px 10px rgba(0, 240, 255, 1);
+    background: linear-gradient(rgb(0, 240, 255));
+}
+
+.CV-btn{
+    position: absolute;
+    top: 100px;
+}
+
+
+                                  /* PROJECTS */
+
+.pro-heading{
+    text-align: center;
+    color: #ffffff;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-decoration-color: rgb(255, 255, 255);
+    text-underline-offset: 15px;
+    margin: 15px;
+}
+
+.Projects{
+    display: flex;
+    justify-content: space-evenly ;
+    width: 1265px;
+    position: absolute;
+    top:180px ;
+}
+
+.pro-1{
+    width: 300px;
+    height: 350px;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    box-shadow: 0 0 20px 10px rgba(0, 240, 255, 1);
+    background: linear-gradient(rgb(0, 240, 255));
+}
+
+#amazon{
+    color: rgb(255, 204, 0);
+    border-radius: 50px;
+    font-size: 130px;
+    margin: 25px 90px 0px 90px;
+}
+
+#youtube{
+    color: red;
+    border-radius: 50px;
+    font-size: 130px;
+    margin: 20px 90px 0px 75px;
+}
+
+#shopify{
+    color: greenyellow;
+    border-radius: 50px;
+    font-size: 130px;
+    margin: 25px 90px 0px 90px;
+}
+
+h6{
+    text-align: center;
+    color: #ffffff;
+    margin: 20px;
+    font-size: 25px;
+}
+
+.project-btn-one{
+    font-size: large;
+    padding: 10px 20px;
+    background-color: #00f0ff;
+    color: #09131c;
+    font-weight: bold;
+    border-radius: 5px;   
+    margin: 0px 0px 0px 80px;
+}  
+
+.project-btn-two{
+    font-size: large;
+    padding: 10px 20px;
+    background-color: #00f0ff;
+    color: #09131c;
+    font-weight: bold;
+    border-radius: 5px;  
+    margin: 0px 0px 0px 80px;
+}  
+
+.project-btn-three{
+    font-size: large;
+    padding: 10px 20px;
+    background-color: #00f0ff;
+    color: #09131c;
+    font-weight: bold;
+    border-radius: 5px;   
+    margin: 0px 0px 0px 80px;
+}  
+
+#pro-btn:hover{
+    background-color: rgb(65, 225, 225);
+
+}
+
+                                  /* CONTACT */                             
+.contact-h2{
+    font-size: 36px;
+    color: #ffffff;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 3px;
+    margin: 100px 0px 0px 100px;
+}
+
+.contact-p{
+    color: #ffffff;
+    margin-left: 100px;
+    font-size: 20px;
+}
+
+#contact-p{
+    line-height: 28px;
+}
+
+.social-logos a{
+    font-size: 30px;
+    margin-right: 10px;
+    color: aqua;
+    
+}
+
+.social-logos{
+    position: absolute;
+    top: 320px;
+    margin-left: 100px;
+}
+
+.icons:hover{
+    color: rgb(47, 219, 219);
+}
+
+.contact-form{
+    border-radius: 40px;
+    border: 2px solid #ffffff;
+    padding: 30px 20px 80px 20px;
+    position: absolute;
+    top: 130px;
+    right: 200px;
+}
+
+.contact-form input , .contact-form textarea {
+    color: #000000;
+    background-color: #ffffff;
+    min-width: 400px;
+    max-width: 400px;
+    padding: 15px 15px;
+    border-radius: 10px;
+    font-size: 17px;
+}
+
+textarea{
+    min-height: 80px;
+    max-height: 80px;
+}
+
+button{
+    width: 435px;
+    font-size: large;
+    padding: 10px 0px;
+    background-color: #00f0ff;
+    color: #09131c;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    position: absolute;
+    top: 320px;
+}
+
+  
